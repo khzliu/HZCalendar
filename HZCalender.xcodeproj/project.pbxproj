@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0319F1C419ED0D6600AECE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1C319ED0D6600AECE5C /* Foundation.framework */; };
+		0319F1C619ED0D6600AECE5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1C519ED0D6600AECE5C /* CoreGraphics.framework */; };
+		0319F1C819ED0D6600AECE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1C719ED0D6600AECE5C /* UIKit.framework */; };
+		0319F1CE19ED0D6600AECE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0319F1CC19ED0D6600AECE5C /* InfoPlist.strings */; };
+		0319F1D019ED0D6600AECE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1CF19ED0D6600AECE5C /* main.m */; };
+		0319F1D419ED0D6600AECE5C /* HZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1D319ED0D6600AECE5C /* HZAppDelegate.m */; };
+		0319F1D619ED0D6600AECE5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0319F1D519ED0D6600AECE5C /* Images.xcassets */; };
+		0319F1DD19ED0D6600AECE5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1DC19ED0D6600AECE5C /* XCTest.framework */; };
+		0319F1DE19ED0D6600AECE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1C319ED0D6600AECE5C /* Foundation.framework */; };
+		0319F1DF19ED0D6600AECE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319F1C719ED0D6600AECE5C /* UIKit.framework */; };
+		0319F1E719ED0D6600AECE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0319F1E519ED0D6600AECE5C /* InfoPlist.strings */; };
+		0319F1E919ED0D6600AECE5C /* HZCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1E819ED0D6600AECE5C /* HZCalenderTests.m */; };
+		0319F21019ED0D8400AECE5C /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1F519ED0D8400AECE5C /* NSDate+Calendar.m */; };
+		0319F21119ED0D8400AECE5C /* NSMutableArray+MoveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1F719ED0D8400AECE5C /* NSMutableArray+MoveElement.m */; };
+		0319F21219ED0D8400AECE5C /* UIView+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1F919ED0D8400AECE5C /* UIView+Calendar.m */; };
+		0319F21319ED0D8400AECE5C /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1FB19ED0D8400AECE5C /* VRGCalendarView.m */; };
+		0319F21419ED0D8400AECE5C /* ZDScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F1FE19ED0D8400AECE5C /* ZDScheduleModel.m */; };
+		0319F21519ED0D8400AECE5C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20119ED0D8400AECE5C /* UIView+Frame.m */; };
+		0319F21719ED0D8400AECE5C /* ZDCustomCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20519ED0D8400AECE5C /* ZDCustomCellContentView.m */; };
+		0319F21819ED0D8400AECE5C /* ZDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20719ED0D8400AECE5C /* ZDOverlayView.m */; };
+		0319F21A19ED0D8400AECE5C /* ZDScheduleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20B19ED0D8400AECE5C /* ZDScheduleContentView.m */; };
+		0319F21B19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20D19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.m */; };
+		0319F21C19ED0D8400AECE5C /* ZDScheduleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F20F19ED0D8400AECE5C /* ZDScheduleViewCell.m */; };
+		0319F22019ED0DA100AECE5C /* HZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F21E19ED0DA100AECE5C /* HZMainViewController.m */; };
+		0319F22119ED0DA100AECE5C /* HZMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0319F21F19ED0DA100AECE5C /* HZMainViewController.xib */; };
+		0319F22419ED13B900AECE5C /* ZDContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F22319ED13B900AECE5C /* ZDContextMenuCell.m */; };
+		0319F22A19EE19E800AECE5C /* ZDScheduleCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F22819EE19E800AECE5C /* ZDScheduleCellView.m */; };
+		0319F22B19EE19E800AECE5C /* ZDScheduleCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0319F22919EE19E800AECE5C /* ZDScheduleCellView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0319F1E019ED0D6600AECE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0319F1B819ED0D6600AECE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0319F1BF19ED0D6600AECE5C;
+			remoteInfo = HZCalender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0319F1C019ED0D6600AECE5C /* HZCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319F1C319ED0D6600AECE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0319F1C519ED0D6600AECE5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0319F1C719ED0D6600AECE5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0319F1CB19ED0D6600AECE5C /* HZCalender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HZCalender-Info.plist"; sourceTree = "<group>"; };
+		0319F1CD19ED0D6600AECE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0319F1CF19ED0D6600AECE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0319F1D119ED0D6600AECE5C /* HZCalender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HZCalender-Prefix.pch"; sourceTree = "<group>"; };
+		0319F1D219ED0D6600AECE5C /* HZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAppDelegate.h; sourceTree = "<group>"; };
+		0319F1D319ED0D6600AECE5C /* HZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAppDelegate.m; sourceTree = "<group>"; };
+		0319F1D519ED0D6600AECE5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0319F1DB19ED0D6600AECE5C /* HZCalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZCalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319F1DC19ED0D6600AECE5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0319F1E419ED0D6600AECE5C /* HZCalenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HZCalenderTests-Info.plist"; sourceTree = "<group>"; };
+		0319F1E619ED0D6600AECE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0319F1E819ED0D6600AECE5C /* HZCalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalenderTests.m; sourceTree = "<group>"; };
+		0319F1F419ED0D8400AECE5C /* NSDate+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
+		0319F1F519ED0D8400AECE5C /* NSDate+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calendar.m"; sourceTree = "<group>"; };
+		0319F1F619ED0D8400AECE5C /* NSMutableArray+MoveElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MoveElement.h"; sourceTree = "<group>"; };
+		0319F1F719ED0D8400AECE5C /* NSMutableArray+MoveElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MoveElement.m"; sourceTree = "<group>"; };
+		0319F1F819ED0D8400AECE5C /* UIView+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Calendar.h"; sourceTree = "<group>"; };
+		0319F1F919ED0D8400AECE5C /* UIView+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Calendar.m"; sourceTree = "<group>"; };
+		0319F1FA19ED0D8400AECE5C /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
+		0319F1FB19ED0D8400AECE5C /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+		0319F1FD19ED0D8400AECE5C /* ZDScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDScheduleModel.h; sourceTree = "<group>"; };
+		0319F1FE19ED0D8400AECE5C /* ZDScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDScheduleModel.m; sourceTree = "<group>"; };
+		0319F20019ED0D8400AECE5C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		0319F20119ED0D8400AECE5C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0319F20419ED0D8400AECE5C /* ZDCustomCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCustomCellContentView.h; sourceTree = "<group>"; };
+		0319F20519ED0D8400AECE5C /* ZDCustomCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCustomCellContentView.m; sourceTree = "<group>"; };
+		0319F20619ED0D8400AECE5C /* ZDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDOverlayView.h; sourceTree = "<group>"; };
+		0319F20719ED0D8400AECE5C /* ZDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDOverlayView.m; sourceTree = "<group>"; };
+		0319F20A19ED0D8400AECE5C /* ZDScheduleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDScheduleContentView.h; sourceTree = "<group>"; };
+		0319F20B19ED0D8400AECE5C /* ZDScheduleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDScheduleContentView.m; sourceTree = "<group>"; };
+		0319F20C19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDScheduleTabelHeaderView.h; sourceTree = "<group>"; };
+		0319F20D19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDScheduleTabelHeaderView.m; sourceTree = "<group>"; };
+		0319F20E19ED0D8400AECE5C /* ZDScheduleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDScheduleViewCell.h; sourceTree = "<group>"; };
+		0319F20F19ED0D8400AECE5C /* ZDScheduleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDScheduleViewCell.m; sourceTree = "<group>"; };
+		0319F21D19ED0DA100AECE5C /* HZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HZMainViewController.h; path = ../HZMainViewController.h; sourceTree = "<group>"; };
+		0319F21E19ED0DA100AECE5C /* HZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HZMainViewController.m; path = ../HZMainViewController.m; sourceTree = "<group>"; };
+		0319F21F19ED0DA100AECE5C /* HZMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HZMainViewController.xib; path = ../HZMainViewController.xib; sourceTree = "<group>"; };
+		0319F22219ED13B900AECE5C /* ZDContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDContextMenuCell.h; sourceTree = "<group>"; };
+		0319F22319ED13B900AECE5C /* ZDContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDContextMenuCell.m; sourceTree = "<group>"; };
+		0319F22719EE19E800AECE5C /* ZDScheduleCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDScheduleCellView.h; sourceTree = "<group>"; };
+		0319F22819EE19E800AECE5C /* ZDScheduleCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDScheduleCellView.m; sourceTree = "<group>"; };
+		0319F22919EE19E800AECE5C /* ZDScheduleCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDScheduleCellView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0319F1BD19ED0D6600AECE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F1C619ED0D6600AECE5C /* CoreGraphics.framework in Frameworks */,
+				0319F1C819ED0D6600AECE5C /* UIKit.framework in Frameworks */,
+				0319F1C419ED0D6600AECE5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319F1D819ED0D6600AECE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F1DD19ED0D6600AECE5C /* XCTest.framework in Frameworks */,
+				0319F1DF19ED0D6600AECE5C /* UIKit.framework in Frameworks */,
+				0319F1DE19ED0D6600AECE5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0319F1B719ED0D6600AECE5C = {
+			isa = PBXGroup;
+			children = (
+				0319F1C919ED0D6600AECE5C /* HZCalender */,
+				0319F1E219ED0D6600AECE5C /* HZCalenderTests */,
+				0319F1C219ED0D6600AECE5C /* Frameworks */,
+				0319F1C119ED0D6600AECE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0319F1C119ED0D6600AECE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1C019ED0D6600AECE5C /* HZCalender.app */,
+				0319F1DB19ED0D6600AECE5C /* HZCalenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0319F1C219ED0D6600AECE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1C319ED0D6600AECE5C /* Foundation.framework */,
+				0319F1C519ED0D6600AECE5C /* CoreGraphics.framework */,
+				0319F1C719ED0D6600AECE5C /* UIKit.framework */,
+				0319F1DC19ED0D6600AECE5C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0319F1C919ED0D6600AECE5C /* HZCalender */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1D219ED0D6600AECE5C /* HZAppDelegate.h */,
+				0319F1D319ED0D6600AECE5C /* HZAppDelegate.m */,
+				0319F21D19ED0DA100AECE5C /* HZMainViewController.h */,
+				0319F21E19ED0DA100AECE5C /* HZMainViewController.m */,
+				0319F21F19ED0DA100AECE5C /* HZMainViewController.xib */,
+				0319F1F219ED0D8400AECE5C /* Lib */,
+				0319F1FC19ED0D8400AECE5C /* Model */,
+				0319F1FF19ED0D8400AECE5C /* View */,
+				0319F1D519ED0D6600AECE5C /* Images.xcassets */,
+				0319F1CA19ED0D6600AECE5C /* Supporting Files */,
+			);
+			path = HZCalender;
+			sourceTree = "<group>";
+		};
+		0319F1CA19ED0D6600AECE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1CB19ED0D6600AECE5C /* HZCalender-Info.plist */,
+				0319F1CC19ED0D6600AECE5C /* InfoPlist.strings */,
+				0319F1CF19ED0D6600AECE5C /* main.m */,
+				0319F1D119ED0D6600AECE5C /* HZCalender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0319F1E219ED0D6600AECE5C /* HZCalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1E819ED0D6600AECE5C /* HZCalenderTests.m */,
+				0319F1E319ED0D6600AECE5C /* Supporting Files */,
+			);
+			path = HZCalenderTests;
+			sourceTree = "<group>";
+		};
+		0319F1E319ED0D6600AECE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1E419ED0D6600AECE5C /* HZCalenderTests-Info.plist */,
+				0319F1E519ED0D6600AECE5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0319F1F219ED0D8400AECE5C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1F319ED0D8400AECE5C /* VRGCalendar */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0319F1F319ED0D8400AECE5C /* VRGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1F419ED0D8400AECE5C /* NSDate+Calendar.h */,
+				0319F1F519ED0D8400AECE5C /* NSDate+Calendar.m */,
+				0319F1F619ED0D8400AECE5C /* NSMutableArray+MoveElement.h */,
+				0319F1F719ED0D8400AECE5C /* NSMutableArray+MoveElement.m */,
+				0319F1F819ED0D8400AECE5C /* UIView+Calendar.h */,
+				0319F1F919ED0D8400AECE5C /* UIView+Calendar.m */,
+				0319F1FA19ED0D8400AECE5C /* VRGCalendarView.h */,
+				0319F1FB19ED0D8400AECE5C /* VRGCalendarView.m */,
+			);
+			path = VRGCalendar;
+			sourceTree = "<group>";
+		};
+		0319F1FC19ED0D8400AECE5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0319F1FD19ED0D8400AECE5C /* ZDScheduleModel.h */,
+				0319F1FE19ED0D8400AECE5C /* ZDScheduleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0319F1FF19ED0D8400AECE5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0319F20019ED0D8400AECE5C /* UIView+Frame.h */,
+				0319F20119ED0D8400AECE5C /* UIView+Frame.m */,
+				0319F20A19ED0D8400AECE5C /* ZDScheduleContentView.h */,
+				0319F20B19ED0D8400AECE5C /* ZDScheduleContentView.m */,
+				0319F20C19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.h */,
+				0319F20D19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.m */,
+				0319F20E19ED0D8400AECE5C /* ZDScheduleViewCell.h */,
+				0319F20F19ED0D8400AECE5C /* ZDScheduleViewCell.m */,
+				0319F22219ED13B900AECE5C /* ZDContextMenuCell.h */,
+				0319F22319ED13B900AECE5C /* ZDContextMenuCell.m */,
+				0319F22719EE19E800AECE5C /* ZDScheduleCellView.h */,
+				0319F22819EE19E800AECE5C /* ZDScheduleCellView.m */,
+				0319F22919EE19E800AECE5C /* ZDScheduleCellView.xib */,
+				0319F20419ED0D8400AECE5C /* ZDCustomCellContentView.h */,
+				0319F20519ED0D8400AECE5C /* ZDCustomCellContentView.m */,
+				0319F20619ED0D8400AECE5C /* ZDOverlayView.h */,
+				0319F20719ED0D8400AECE5C /* ZDOverlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0319F1BF19ED0D6600AECE5C /* HZCalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319F1EC19ED0D6600AECE5C /* Build configuration list for PBXNativeTarget "HZCalender" */;
+			buildPhases = (
+				0319F1BC19ED0D6600AECE5C /* Sources */,
+				0319F1BD19ED0D6600AECE5C /* Frameworks */,
+				0319F1BE19ED0D6600AECE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZCalender;
+			productName = HZCalender;
+			productReference = 0319F1C019ED0D6600AECE5C /* HZCalender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0319F1DA19ED0D6600AECE5C /* HZCalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319F1EF19ED0D6600AECE5C /* Build configuration list for PBXNativeTarget "HZCalenderTests" */;
+			buildPhases = (
+				0319F1D719ED0D6600AECE5C /* Sources */,
+				0319F1D819ED0D6600AECE5C /* Frameworks */,
+				0319F1D919ED0D6600AECE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0319F1E119ED0D6600AECE5C /* PBXTargetDependency */,
+			);
+			name = HZCalenderTests;
+			productName = HZCalenderTests;
+			productReference = 0319F1DB19ED0D6600AECE5C /* HZCalenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0319F1B819ED0D6600AECE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = khzliu;
+				TargetAttributes = {
+					0319F1DA19ED0D6600AECE5C = {
+						TestTargetID = 0319F1BF19ED0D6600AECE5C;
+					};
+				};
+			};
+			buildConfigurationList = 0319F1BB19ED0D6600AECE5C /* Build configuration list for PBXProject "HZCalender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0319F1B719ED0D6600AECE5C;
+			productRefGroup = 0319F1C119ED0D6600AECE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0319F1BF19ED0D6600AECE5C /* HZCalender */,
+				0319F1DA19ED0D6600AECE5C /* HZCalenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0319F1BE19ED0D6600AECE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F22119ED0DA100AECE5C /* HZMainViewController.xib in Resources */,
+				0319F1CE19ED0D6600AECE5C /* InfoPlist.strings in Resources */,
+				0319F1D619ED0D6600AECE5C /* Images.xcassets in Resources */,
+				0319F22B19EE19E800AECE5C /* ZDScheduleCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319F1D919ED0D6600AECE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F1E719ED0D6600AECE5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0319F1BC19ED0D6600AECE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F21819ED0D8400AECE5C /* ZDOverlayView.m in Sources */,
+				0319F21719ED0D8400AECE5C /* ZDCustomCellContentView.m in Sources */,
+				0319F21519ED0D8400AECE5C /* UIView+Frame.m in Sources */,
+				0319F21419ED0D8400AECE5C /* ZDScheduleModel.m in Sources */,
+				0319F21319ED0D8400AECE5C /* VRGCalendarView.m in Sources */,
+				0319F22A19EE19E800AECE5C /* ZDScheduleCellView.m in Sources */,
+				0319F1D419ED0D6600AECE5C /* HZAppDelegate.m in Sources */,
+				0319F22419ED13B900AECE5C /* ZDContextMenuCell.m in Sources */,
+				0319F22019ED0DA100AECE5C /* HZMainViewController.m in Sources */,
+				0319F21B19ED0D8400AECE5C /* ZDScheduleTabelHeaderView.m in Sources */,
+				0319F21119ED0D8400AECE5C /* NSMutableArray+MoveElement.m in Sources */,
+				0319F21A19ED0D8400AECE5C /* ZDScheduleContentView.m in Sources */,
+				0319F21019ED0D8400AECE5C /* NSDate+Calendar.m in Sources */,
+				0319F21219ED0D8400AECE5C /* UIView+Calendar.m in Sources */,
+				0319F1D019ED0D6600AECE5C /* main.m in Sources */,
+				0319F21C19ED0D8400AECE5C /* ZDScheduleViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319F1D719ED0D6600AECE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F1E919ED0D6600AECE5C /* HZCalenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0319F1E119ED0D6600AECE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0319F1BF19ED0D6600AECE5C /* HZCalender */;
+			targetProxy = 0319F1E019ED0D6600AECE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0319F1CC19ED0D6600AECE5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319F1CD19ED0D6600AECE5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0319F1E519ED0D6600AECE5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319F1E619ED0D6600AECE5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0319F1EA19ED0D6600AECE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0319F1EB19ED0D6600AECE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0319F1ED19ED0D6600AECE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZCalender/HZCalender-Prefix.pch";
+				INFOPLIST_FILE = "HZCalender/HZCalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0319F1EE19ED0D6600AECE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZCalender/HZCalender-Prefix.pch";
+				INFOPLIST_FILE = "HZCalender/HZCalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0319F1F019ED0D6600AECE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HZCalender.app/HZCalender";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZCalender/HZCalender-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HZCalenderTests/HZCalenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0319F1F119ED0D6600AECE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HZCalender.app/HZCalender";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZCalender/HZCalender-Prefix.pch";
+				INFOPLIST_FILE = "HZCalenderTests/HZCalenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0319F1BB19ED0D6600AECE5C /* Build configuration list for PBXProject "HZCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319F1EA19ED0D6600AECE5C /* Debug */,
+				0319F1EB19ED0D6600AECE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0319F1EC19ED0D6600AECE5C /* Build configuration list for PBXNativeTarget "HZCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319F1ED19ED0D6600AECE5C /* Debug */,
+				0319F1EE19ED0D6600AECE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0319F1EF19ED0D6600AECE5C /* Build configuration list for PBXNativeTarget "HZCalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319F1F019ED0D6600AECE5C /* Debug */,
+				0319F1F119ED0D6600AECE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0319F1B819ED0D6600AECE5C /* Project object */;
+}
