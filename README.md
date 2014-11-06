@@ -30,4 +30,4 @@ Requirements
 
 License
 ---
-ZLSwipeableView is available under MIT license. See the LICENSE file for more info.
+HZCalender is available under MIT license. See the LICENSE file for more info.
